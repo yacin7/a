@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="498.0" prefWidth="447.0" style="-fx-background-color: D4EEFC;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.EditeProduitFXMLController">
+   <children>
+      <Label alignment="CENTER" prefHeight="83.0" prefWidth="450.0" style="-fx-background-color: D4EEFC;" text="Modifier un produit" textFill="#0012da" textOverrun="CLIP">
+         <font>
+            <Font name="Bodoni MT Black" size="21.0" />
+         </font>
+      </Label>
+      <HBox prefHeight="3.0" prefWidth="311.0">
+         <children>
+            <VBox />
+         </children>
+      </HBox>
+      <Pane prefHeight="5.0" prefWidth="447.0" style="-fx-background-color: black;" />
+      <TextField fx:id="PoduitId" visible="false" />
+      <Label prefHeight="14.0" prefWidth="58.0" text="Nom" textFill="#6e5116">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nomM" />
+      <Label prefHeight="26.0" prefWidth="97.0" text="Description" textFill="#6e5116">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="libelleM" />
+      <Label prefHeight="14.0" prefWidth="58.0" text="Prix" textFill="#6e5116">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="prixM" />
+      <Label prefHeight="28.0" prefWidth="90.0" textFill="#6e5116">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Pane prefHeight="5.0" prefWidth="447.0" style="-fx-background-color: black;" />
+      <HBox alignment="CENTER" prefHeight="82.0" prefWidth="456.0" style="-fx-background-color: D4EEFC;">
+         <children>
+            <Button mnemonicParsing="false" onAction="#modifierp" onMouseClicked="#modifierp" prefHeight="54.0" prefWidth="178.0" style="-fx-background-color: #0012da;" text="Modifier" textFill="WHITE">
+               <font>
+                  <Font name="Bodoni MT Black" size="30.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>
